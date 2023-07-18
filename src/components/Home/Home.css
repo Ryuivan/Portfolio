@@ -1,0 +1,68 @@
+@media (max-width: 425px) {
+  .home-title h1 {
+    font-size: 2.3rem !important;
+  }
+  .home-desc h4 {
+    font-size: 1rem !important;
+  }
+  .home-button button {
+    font-size: 1rem !important;
+  }
+}
+
+.home-bg {
+  height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.8),
+      rgba(245, 245, 245, 0.8)
+    ),
+    url(../../assets/background.svg) !important;
+  background-position: center;
+  position: relative;
+}
+
+.home-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-title h1 {
+  letter-spacing: 1px;
+  font-size: 3rem;
+  font-weight: 500 !important;
+}
+
+.home-desc h4 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-align: center ;
+}
+
+.home-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-button button {
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  background-image: -webkit-linear-gradient(30deg, #313232 50%, #fdc500 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 0.4s ease-in-out;
+  transition: background 0.4s ease-in-out;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  color: white;
+}
+
+.home-button button:hover {
+  background-position: 100%;
+  color: black;
+}

@@ -1,0 +1,24 @@
+#contact {
+  background-image: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.8),
+      rgba(245, 245, 245, 0.8)
+    ),
+    url(../../assets/background.svg) !important;
+  background-position: center;
+  position: relative;
+}
+
+.contact-btn {
+    padding: 10px 20px;
+    color: black;
+    background-color: transparent;
+    border: 3px solid #fdc500;
+    border-radius: 15px;
+    transition: 0.2s all ease-in-out;
+}
+
+.contact-btn:hover {
+    background-color: #fdc500;
+    color: black;
+}
